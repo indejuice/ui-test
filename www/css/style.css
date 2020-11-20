@@ -245,7 +245,7 @@
                 width: 83%;
             }
             
-            .mango-modal {
+            .fruits-modal {
                 color: #000000;
                 text-decoration: none;
                 font-family: Gotham-Bold;
@@ -256,6 +256,7 @@
                 font-family: Gotham-thin;
                 font-size: 1.3rem;
                 color: slategrey;
+                text-shadow: 4px 4px 16px 0 rgba(0, 0, 0, 0.2);
             }
             
             .fruit-section {
@@ -407,7 +408,9 @@
                 body.fixed .header-fixed {
                     display: none;
                 }
-                .img-responsive {}
+                .img-responsive {
+                    padding-left: 12rem;
+                }
                 .header-fixed .header-limiter h1 {
                     margin: -12px 0 10px;
                     text-align: center;
@@ -459,33 +462,28 @@
                     text-decoration: none;
                 }
             }
+            
+            .footer {
+                font-family: "Gotham-Bold";
+                padding: 1rem;
+                font-size: 1rem;
+                background-color: #ffbd39;
+                color: #ffffff;
+                margin-top: 2rem;
+            }
             /* Mobile Version */
             
-            @media (max-width: 500px) {
-                .img-responsive {
-                    padding-left: 6rem;
-                    width: 11rem;
-                }
-                .header-fixed .header-limiter h1 {
-                    margin: -10px 2px 10px;
-                    text-align: center;
-                    font-size: 15px;
-                    line-height: 1;
-                }
-            }
-            
-            @media (max-width: 400px) {
+            @media (max-width: 600px) {
                 .img-responsive {
                     display: block;
                     margin-right: auto;
                     margin-left: auto;
-                    padding-left: 3rem;
-                    width: 43%;
+                    padding-left: 4.5rem;
                 }
                 .header-fixed .header-limiter h1 {
                     margin: -12px 0 10px;
                     text-align: center;
-                    font-size: 14px;
+                    font-size: 1rem;
                 }
                 .header-fixed .header-limiter {
                     display: flex;
