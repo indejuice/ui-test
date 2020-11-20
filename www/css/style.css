@@ -391,6 +391,15 @@
                 text-align: left;
                 padding-top: 3rem;
             }
+            
+            .footer {
+                font-family: "Gotham-Bold";
+                padding: 1rem;
+                font-size: 1rem;
+                background-color: #ffbd39;
+                color: #ffffff;
+                margin-top: 2rem;
+            }
             /* Tablet Version */
             
             @media all and (max-width: 850px) {
@@ -461,15 +470,6 @@
                     color: #000000;
                     text-decoration: none;
                 }
-            }
-            
-            .footer {
-                font-family: "Gotham-Bold";
-                padding: 1rem;
-                font-size: 1rem;
-                background-color: #ffbd39;
-                color: #ffffff;
-                margin-top: 2rem;
             }
             /* Mobile Version */
             
