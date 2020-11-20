@@ -52,3 +52,4 @@ You will be assessed on your JavaScript solution and the design of your modal wi
 ## Submission
 
 Send the link of your Git repository to: tech@indejuice.com
+# ui-test
